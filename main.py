@@ -1,4 +1,3 @@
-from numpy import array
 from lpsolve55 import *
 
 # Press the green button in the gutter to run the script.
