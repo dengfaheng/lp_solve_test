@@ -17,6 +17,7 @@ if __name__ == '__main__':
     s = CyClpSimplex()
     s.readMps(file_name)
     s.initialSolve()
+
     time_end = time.time()
     print("------------------------------------------------------------------------\n")
     print("objective             = ", round(s.objectiveValue, 2))
