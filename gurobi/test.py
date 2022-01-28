@@ -3,7 +3,7 @@ from gurobipy import *
 try:
 
     # Create a new model
-    model = read('E226.mps')
+    model = read('L1_table6.mps')
 
     model.optimize()
 
